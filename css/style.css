@@ -77,8 +77,15 @@ hr {
   .mt-70 {
     margin-top: 70px;
   }
+  .mt-20 {
+    margin-top: 20px;
+  }
   .mb-70 {
     margin-bottom: 70px;
+  }
+
+  .peque-movil {
+    margin-top:0;
   }
  
 .contador-navideño {
@@ -534,6 +541,10 @@ ul.movil-links,  li.margen-button-tabs , a {
 }
 
 @media screen and (max-width:480px){
+
+  .peque-movil {
+    margin-top:20px;
+  }
   .oculto-web {
     display: block;
   }
